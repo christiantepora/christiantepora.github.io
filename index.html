@@ -1,53 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>C Tepora</title>
-    <link rel="stylesheet" href="css/main.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
     <div class="overlay" id="overlay">
-        <h3>Searching Now</h3>
+      <h3>Searching Now</h3>
     </div>
     <div class="hero-bg">
-        <section class="top">
-            <header>
-                <a href="https://christiantepora.github.io/">christiantepora.github.io/</a>
-            </header>
-            <h1><span>BSIT</span>Christian Tepora</h1>
-            <p>Aliqua cillum excepteur tempor esse velit adipisicing laborum reprehenderit magna ad laborum labore eiusmod est.</p>
-            <div class="form-container">
-                <form action="">
-                    <div class="form-left">
-                        <label for="city">Enter your city:</label>
-                        <input type="text" name="city" id="city">
-                        <p>Example: San Diego</p>
-                    </div>
-                    
-                    <input type="button" value="Find Food Now" id="cta-btn">
-                </form>
+      <section class="top">
+        <header>
+          <a href="https://christiantepora.github.io/"
+            >christiantepora.github.io/</a
+          >
+        </header>
+        <h1><span>BSIT</span>Christian Tepora</h1>
+        <p>
+          Aliqua cillum excepteur tempor esse velit adipisicing laborum
+          reprehenderit magna ad laborum labore eiusmod est.
+        </p>
+        <div class="form-container">
+          <form action="">
+            <div class="form-left">
+              <label for="city">Enter your city:</label>
+              <input type="text" name="city" id="city" />
+              <p>Example: San Diego</p>
             </div>
-        </section>
+
+            <input type="button" value="Find Food Now" id="cta-btn" />
+          </form>
+        </div>
+      </section>
     </div>
     <section class="authentic">
-        <div class="right-col">
-            <h2>Authentic. Awesome</h2>
-            <p>Ex sunt do id enim sunt veniam qui est laboris excepteur Lorem excepteur laboris nulla. Sint cupidatat pariatur et veniam. Minim ex nisi do quis occaecat aute culpa enim labore incididunt sunt deserunt. Consequat eiusmod et dolor adipisicing excepteur eiusmod laboris elit et cillum qui qui.</p>
-        </div>
-        <img src="images/pexels-negative-space-160107.jpg" alt="Picture of food in a bowl">
+      <div class="right-col">
+        <h2>Authentic. Awesome</h2>
+        <p>
+          Ex sunt do id enim sunt veniam qui est laboris excepteur Lorem
+          excepteur laboris nulla. Sint cupidatat pariatur et veniam. Minim ex
+          nisi do quis occaecat aute culpa enim labore incididunt sunt deserunt.
+          Consequat eiusmod et dolor adipisicing excepteur eiusmod laboris elit
+          et cillum qui qui.
+        </p>
+      </div>
+      <img
+        src="images/pexels-negative-space-160107.jpg"
+        alt="Picture of food in a bowl"
+      />
     </section>
     <script>
-    let btn = document.getElementById("cta-btn");
-    let overlay =document.getElementById("overlay");
-    
-    btn.addEventListener("click", () => {
-        overlay.style.display= 'grid';
-        overlay.classList.add('animate-overlay')
-     })
-</script>
-    
-</body>
+      let btn = document.getElementById("cta-btn");
+      let overlay = document.getElementById("overlay");
+
+      btn.addEventListener("click", () => {
+        overlay.style.display = "grid";
+        overlay.classList.add("animate-overlay");
+      });
+    </script>
+  </body>
 </html>
-
-
