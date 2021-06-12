@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 :root {
-  --primary-color: #007af3;
+  --primary-color: #565a5e;
 }
 body {
   background: #f2f2f2;
@@ -212,7 +212,7 @@ nav {
   }
   .navbar .container {
     display: grid;
-    grid-template-columns: 180px auto;
+    grid-template-columns: 200px auto;
   }
   .navbar nav {
     display: flex;
