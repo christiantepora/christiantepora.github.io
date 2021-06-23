@@ -29,6 +29,7 @@ body {
   .container {
     display: flex;
     place-content: space-between;
+    padding-right: 1.5em;
   }
   .mobile-menu {
     cursor: pointer;

@@ -37,6 +37,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   place-content: space-between;
+  padding-right: 1.5em;
 }
 
 .navbar .mobile-menu {
