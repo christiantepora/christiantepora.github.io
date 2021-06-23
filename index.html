@@ -30,7 +30,7 @@
           <ul class="primary-nav">
             <li class="current"><a href="#">Home</a></li>
             <li><a href="#projects-section">Projects</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -108,13 +108,20 @@
         </ul>
       </div>
     </section>
-    <section class="contact-section">
+    <section class="contact-section" id="contact">
       <div class="container">
         <div class="contact-left">
           <h2>Contact</h2>
-          <form action="">
+          <form action="https://formsubmit.co/teporacj@gmail.com" method="POST">
+            <input
+              type="hidden"
+              name="_subject"
+              value="New email from github website!"
+            />
             <label for="name">Name</label>
-            <input type="text" id="name" name="name" />
+            <input type="text" id="name" name="name" required />
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
 
             <label for="message">Message</label>
             <textarea
@@ -122,6 +129,7 @@
               id="message"
               cols="30"
               rows="10"
+              required
             ></textarea>
 
             <input
@@ -147,5 +155,7 @@
         nav.classList.remove("menu-btn");
       });
     </script>
+
+    <script src="app.js"></script>
   </body>
 </html>
