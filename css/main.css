@@ -14,6 +14,7 @@ body {
   padding: 1em;
   position: fixed;
   width: 100%;
+  z-index: 100;
 }
 
 .navbar .logo {
@@ -333,16 +334,6 @@ nav li a:hover {
     width: 30px;
     height: 30px;
   }
-  .features-section {
-    position: relative;
-  }
-  .features-section img {
-    display: block;
-    position: relative;
-    right: 0;
-    width: 350px;
-    bottom: -2em;
-  }
   .projects-section ul {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -368,27 +359,6 @@ nav li a:hover {
   }
   .contact-right iframe {
     height: 100%;
-  }
-}
-
-@media only screen and (min-width: 1450px) {
-  .features-section:before {
-    content: "";
-    position: absolute;
-    width: 10%;
-    height: 20em;
-    background: var(--primary-color);
-    left: 0;
-    top: -4em;
-  }
-  .features-section:after {
-    content: "";
-    position: absolute;
-    width: 200px;
-    height: 20em;
-    background: url("../images/dots.svg") no-repeat;
-    left: 4.5em;
-    top: 2em;
   }
 }
 /*# sourceMappingURL=main.css.map */
