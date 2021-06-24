@@ -22,8 +22,6 @@ body {
   font-weight: bold;
   color: black;
   font-size: 1.2em;
-  -webkit-transform: translateY(-20%);
-          transform: translateY(-20%);
   opacity: 0%;
 }
 
@@ -75,7 +73,7 @@ section {
   text-transform: uppercase;
   font-weight: bold;
   color: gray;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.1em;
 }
 
 .left-col h1 {
@@ -95,13 +93,14 @@ section {
   display: inline-block;
 }
 
-.left-col .watch-video-cta {
+.left-col .linkedin-cta {
   display: block;
   margin-top: 1em;
 }
 
-.left-col .watch-video-cta img {
+.left-col .linkedin-cta img {
   margin-right: 0.5em;
+  width: 27px;
 }
 
 .hero-img {
