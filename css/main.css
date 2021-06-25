@@ -109,7 +109,7 @@ section {
   opacity: 0%;
 }
 
-section.features-section {
+section.aboutme-section {
   background: #20272e;
   color: white;
 }
@@ -141,7 +141,7 @@ ul.features-list li:before {
   margin-right: 5em;
 }
 
-.features-section img {
+.aboutme-section img {
   display: none;
 }
 
@@ -257,6 +257,17 @@ nav li a:hover {
   float: right;
   margin: 0.5em;
   cursor: pointer;
+}
+
+.resume-cta {
+  background: var(--primary-color);
+  color: white;
+  text-decoration: none;
+  padding: 0.6em 1.3em;
+  font-size: 1.4em;
+  border-radius: 5em;
+  font-weight: bold;
+  display: inline-block;
 }
 
 @media only screen and (min-width: 768px) {
