@@ -151,7 +151,7 @@ ul.features-list li:before {
 }
 
 .projects-section li {
-  background: #006bd6;
+  background: #1a1f24;
   text-align: center;
   padding: 2em 1em;
   width: 80%;
@@ -160,11 +160,18 @@ ul.features-list li:before {
 }
 
 .projects-section li img {
-  width: 5em;
-  height: 5em;
-  border: 5px solid #006bd6;
-  border-radius: 50%;
+  -webkit-filter: grayscale(80%);
+          filter: grayscale(80%);
+  width: 100%;
+  cursor: pointer;
+  border: 2px solid #1a1f24;
+  border-radius: 5%;
   margin-top: -4.5em;
+}
+
+.projects-section li img:hover {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
 }
 
 h2 {
