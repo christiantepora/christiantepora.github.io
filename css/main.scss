@@ -138,13 +138,14 @@ ul.features-list {
     border-radius: 1em;
 
     img {
-      filter: grayscale(80%);
       width: 100%;
       cursor: pointer;
       border: 2px solid #1a1f24;
       border-radius: 5%;
 
       margin-top: -4.5em;
+      filter: grayscale(80%);
+      transition: filter 0.3s;
     }
     cite {
       font-size: 0.8em;
