@@ -169,6 +169,10 @@ ul.features-list li:before {
   margin-top: -4.5em;
 }
 
+.projects-section li cite {
+  font-size: 0.8em;
+}
+
 .projects-section li img:hover {
   -webkit-filter: grayscale(0%);
           filter: grayscale(0%);
