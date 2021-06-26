@@ -182,6 +182,11 @@ ul.features-list li:before {
           filter: grayscale(0%);
 }
 
+.projname {
+  text-decoration: none;
+  color: white;
+}
+
 h2 {
   font-size: 2em;
 }

@@ -127,6 +127,7 @@ ul.features-list {
 .projects-section {
   background: var(--primary-color);
   color: white;
+
   li {
     background: #1a1f24;
 
@@ -154,7 +155,10 @@ ul.features-list {
     }
   }
 }
-
+.projname {
+  text-decoration: none;
+  color: white;
+}
 h2 {
   font-size: 2em;
 }
