@@ -1,16 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
 :root {
-  --primary-color: #3f72af;
+  --primary-color: #333333;
 }
 
 body {
-  background: #dbe2ef;
+  background: white;
   margin: 0;
   font-family: "Share Tech Mono", monospace;
 }
 
 .navbar {
-  background: #f9f7f7;
+  background: white;
   padding: 1em;
   position: fixed;
   width: 100%;
@@ -110,7 +110,7 @@ section {
 }
 
 section.aboutme-section {
-  background: #112d4e;
+  background: #20272e;
   color: white;
 }
 
@@ -146,12 +146,18 @@ ul.features-list li:before {
 }
 
 .projects-section {
-  background: var(--primary-color);
+  padding-top: 6em;
+  background: white;
   color: white;
 }
 
+.projects-section h2 {
+  color: black;
+  margin-bottom: 3em;
+}
+
 .projects-section li {
-  background: #112d4e;
+  background: #1a1f24;
   text-align: center;
   padding: 2em 1em;
   width: 80%;
@@ -236,7 +242,7 @@ nav {
   width: 66%;
   right: 0;
   top: 0;
-  background: #112d4e;
+  background: #20272e;
   height: 100vh;
   padding: 1em;
 }
@@ -273,6 +279,11 @@ nav li a:hover {
   border-radius: 5em;
   font-weight: bold;
   display: inline-block;
+}
+
+.contact-section {
+  background: #20272e;
+  color: white;
 }
 
 @media only screen and (min-width: 768px) {
