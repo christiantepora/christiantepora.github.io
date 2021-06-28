@@ -114,33 +114,6 @@ section.aboutme-section {
   color: white;
 }
 
-ul.features-list {
-  margin: 0;
-  padding-left: 0.1em;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (minmax(19rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
-}
-
-ul.features-list li {
-  font-size: 1.1em;
-  margin-bottom: 1em;
-  margin-left: 2em;
-  position: relative;
-}
-
-ul.features-list li:before {
-  content: "";
-  left: -2em;
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  background-image: url("../images/bullet.svg");
-  background-size: contain;
-  margin-right: 5em;
-}
-
 .aboutme-section img {
   display: none;
 }
@@ -171,8 +144,8 @@ ul.features-list li:before {
   border: 2px solid #1a1f24;
   border-radius: 5%;
   margin-top: -4.5em;
-  -webkit-filter: grayscale(80%);
-          filter: grayscale(80%);
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
   -webkit-transition: -webkit-filter 0.3s;
   transition: -webkit-filter 0.3s;
   transition: filter 0.3s;
@@ -214,17 +187,17 @@ textarea {
 }
 
 .send-message-cta {
-  background-color: var(--primary-color);
-  color: white;
-  font-weight: bold;
-  font-size: 1.3em;
-  border: none;
-  margin-bottom: 5em;
+  background: white;
+  color: var(--primary-color);
+  text-decoration: none;
+  padding: 0.6em 1.3em;
+  font-size: 1.4em;
   border-radius: 5em;
+  font-weight: bold;
   display: inline-block;
-  padding: 0.8em 2em;
-  width: unset;
   cursor: pointer;
+  width: unset;
+  margin-top: 0.5em;
 }
 
 iframe {
@@ -271,14 +244,15 @@ nav li a:hover {
 }
 
 .resume-cta {
-  background: var(--primary-color);
-  color: white;
+  background: white;
+  color: var(--primary-color);
   text-decoration: none;
   padding: 0.6em 1.3em;
   font-size: 1.4em;
   border-radius: 5em;
   font-weight: bold;
   display: inline-block;
+  cursor: pointer;
 }
 
 .contact-section {
@@ -325,17 +299,6 @@ nav li a:hover {
   }
   .navbar nav li.current a {
     font-weight: bold;
-  }
-  .navbar nav li.go-premium-cta a {
-    color: var(--primary-color);
-    border: 3px solid var(--primary-color);
-    font-weight: bold;
-    border-radius: 5em;
-    margin-top: -0.2;
-  }
-  .navbar nav li.go-premium-cta a:hover {
-    background-color: var(--primary-color);
-    color: white;
   }
 }
 

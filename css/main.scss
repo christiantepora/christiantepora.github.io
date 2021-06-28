@@ -97,29 +97,29 @@ section.aboutme-section {
   color: white;
 }
 
-ul.features-list {
-  margin: 0;
-  padding-left: 0.1em;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
-  li {
-    font-size: 1.1em;
-    margin-bottom: 1em;
-    margin-left: 2em;
-    position: relative;
+// ul.features-list {
+//   margin: 0;
+//   padding-left: 0.1em;
+//   display: grid;
+//   grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+//   li {
+//     font-size: 1.1em;
+//     margin-bottom: 1em;
+//     margin-left: 2em;
+//     position: relative;
 
-    &:before {
-      content: "";
-      left: -2em;
-      position: absolute;
-      width: 20px;
-      height: 20px;
-      background-image: url("../images/bullet.svg");
-      background-size: contain;
-      margin-right: 5em;
-    }
-  }
-}
+//     &:before {
+//       content: "";
+//       left: -2em;
+//       position: absolute;
+//       width: 20px;
+//       height: 20px;
+//       background-image: url("../images/bullet.svg");
+//       background-size: contain;
+//       margin-right: 5em;
+//     }
+//   }
+// }
 
 .aboutme-section img {
   display: none;
@@ -149,7 +149,7 @@ ul.features-list {
       border-radius: 5%;
 
       margin-top: -4.5em;
-      filter: grayscale(80%);
+      filter: grayscale(0%);
       transition: filter 0.3s;
     }
     cite {
@@ -183,17 +183,17 @@ textarea {
   box-sizing: border-box;
 }
 .send-message-cta {
-  background-color: var(--primary-color);
-  color: white;
-  font-weight: bold;
-  font-size: 1.3em;
-  border: none;
-  margin-bottom: 5em;
+  background: white;
+  color: var(--primary-color);
+  text-decoration: none;
+  padding: 0.6em 1.3em;
+  font-size: 1.4em;
   border-radius: 5em;
+  font-weight: bold;
   display: inline-block;
-  padding: 0.8em 2em;
-  width: unset;
   cursor: pointer;
+  width: unset;
+  margin-top: 0.5em;
 }
 
 iframe {
@@ -237,14 +237,15 @@ nav {
 }
 
 .resume-cta {
-  background: var(--primary-color);
-  color: white;
+  background: white;
+  color: var(--primary-color);
   text-decoration: none;
   padding: 0.6em 1.3em;
   font-size: 1.4em;
   border-radius: 5em;
   font-weight: bold;
   display: inline-block;
+  cursor: pointer;
 }
 .contact-section {
   background: #20272e;
@@ -280,18 +281,6 @@ nav {
     }
     li.current a {
       font-weight: bold;
-    }
-    li.go-premium-cta a {
-      color: var(--primary-color);
-      border: 3px solid var(--primary-color);
-      font-weight: bold;
-      border-radius: 5em;
-      margin-top: -0.2;
-
-      &:hover {
-        background-color: var(--primary-color);
-        color: white;
-      }
     }
   }
 }
